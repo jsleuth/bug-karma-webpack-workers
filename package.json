@@ -1,0 +1,28 @@
+{
+  "name": "bug-karma-webpack-workers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start karma.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsleuth/bug-karma-webpack-workers.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jsleuth/bug-karma-webpack-workers/issues"
+  },
+  "homepage": "https://github.com/jsleuth/bug-karma-webpack-workers#readme",
+  "devDependencies": {
+    "jasmine": "^3.1.0",
+    "karma": "^2.0.4",
+    "karma-webpack": "^3.0.0",
+    "puppeteer": "^1.5.0",
+    "ts-node": "^6.1.2",
+    "typescript": "^2.9.2",
+    "webpack": "^4.12.0"
+  }
+}
