@@ -2,7 +2,7 @@
 
 **To Use**
 - clone the repo
-- run `npm install`
+- run `npm install` (karma-webpack@2.0.6 will be installed)
 - run `npm test` (the one test should pass)
 
 **To See the Issue**
