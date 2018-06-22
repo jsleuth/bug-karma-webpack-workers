@@ -70,19 +70,11 @@ function configureKarma(config) {
 
   // Setup webpack as our preprocessor
   // https://npmjs.org/browse/keyword/karma-preprocessor
-  karmaConfig.preprocessors = { './karma.setup.js': ['webpack', 'sourcemap'] };
+  karmaConfig.preprocessors = { './karma.setup.js': ['webpack'] };
 
   // Configure webpack
   karmaConfig.webpack = require('./webpack.config.js')({ coverage: true });
   karmaConfig.webpackServer = { noInfo: true };
-
-  // Set our reporters
-  // https://npmjs.org/browse/keyword/karma-reporter
-  karmaConfig.reporters = [
-    'verbose',
-    'progress',
-    'junit',
-  ];
 
   // Exit out if tests fail
   karmaConfig.singleRun = true;
