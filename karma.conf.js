@@ -62,7 +62,7 @@ function configureKarma(config) {
   karmaConfig.frameworks = ['jasmine'];
 
   // Set our log level
-  karmaConfig.logLevel = config.LOG_ERROR;
+  karmaConfig.logLevel = config.LOG_DEBUG;
 
   // The port to run our server on
   const serverPort = 11337;
